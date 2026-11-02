@@ -7,8 +7,8 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["mflRevan"]
-repository = "https://github.com/mflRevan/fluss"
-homepage = "https://github.com/mflRevan/fluss"
+repository = "https://github.com/eigenpair/fluss"
+homepage = "https://github.com/eigenpair/fluss"
 
 [workspace.dependencies]
 fluss-core = { path = "crates/fluss-core" }

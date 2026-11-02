@@ -17,7 +17,7 @@ use serde_json::Value;
 use crate::version::{newer, Version};
 
 pub const MANIFEST_URL: &str = "https://fluss-mauve.vercel.app/update.json";
-pub const GITHUB_LATEST_URL: &str = "https://api.github.com/repos/mflRevan/fluss/releases/latest";
+pub const GITHUB_LATEST_URL: &str = "https://api.github.com/repos/eigenpair/fluss/releases/latest";
 
 /// The feed URL; `FLUSS_UPDATE_URL` overrides it (testing, mirrors).
 pub fn manifest_url() -> String {
@@ -130,7 +130,7 @@ mod tests {
     fn reads_github_release() {
         let v = json!({
             "tag_name": "v0.2.0",
-            "html_url": "https://github.com/mflRevan/fluss/releases/tag/v0.2.0",
+            "html_url": "https://github.com/eigenpair/fluss/releases/tag/v0.2.0",
             "published_at": "2026-11-02T10:00:00Z",
             "assets": [
                 {"name": "Fluss-setup.exe", "browser_download_url": "https://x/Fluss-setup.exe"},

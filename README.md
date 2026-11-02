@@ -39,7 +39,7 @@
 
 ## Install
 
-Download `Fluss_x.y.z_x64-setup.exe` from [Releases](https://github.com/mflRevan/fluss/releases) or [the website](https://fluss-mauve.vercel.app) and run it. No admin rights are needed. Onboarding walks you through choosing a microphone and a model, then lets you try it out.
+Download `Fluss_x.y.z_x64-setup.exe` from [Releases](https://github.com/eigenpair/fluss/releases) or [the website](https://fluss-mauve.vercel.app) and run it. No admin rights are needed. Onboarding walks you through choosing a microphone and a model, then lets you try it out.
 
 **Updates.** Fluss checks for a new version twice a day (turn it off on the About page or with `fluss config set general.check_updates false`). When one is out, the tray menu and the sidebar say so. Install it from About, the tray or `fluss update`: the installer is downloaded, checked against its SHA-256, and run in the background. Fluss comes back by itself on the new version. Before the first start of a new version, your settings and dictionary are copied to `%LOCALAPPDATA%\Fluss\backups\<old version>`. A settings file that can't be read is kept as `config.toml.broken-<time>` instead of being overwritten.
 

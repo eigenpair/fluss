@@ -120,7 +120,7 @@
         </div>
       {/if}
 
-      <button class="btn ghost repo" onclick={() => open("https://github.com/mflRevan/fluss")}>github.com/mflRevan/fluss ↗</button>
+      <button class="btn ghost repo" onclick={() => open("https://github.com/eigenpair/fluss")}>github.com/eigenpair/fluss ↗</button>
     </div>
     <Iris size={250} />
   </div>

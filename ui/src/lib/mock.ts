@@ -333,7 +333,7 @@ export function mockBackend() {
   };
   // Dev: `?update` offers a new version, `?update=required` an unsupported one, `?skew` a stale daemon.
   if (params.has("update")) {
-    Object.assign(status.update, { latest: "0.2.0", available: true, notes_url: "https://github.com/mflRevan/fluss/releases" });
+    Object.assign(status.update, { latest: "0.2.0", available: true, notes_url: "https://github.com/eigenpair/fluss/releases" });
     if (params.get("update") === "required") Object.assign(status.update, { required: true, message: "This version has a bug that can drop words. Please update." });
   }
   if (params.has("skew")) status.version = "0.0.9";
