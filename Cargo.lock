@@ -1187,7 +1187,7 @@ dependencies = [
 
 [[package]]
 name = "fluss-cli"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "clap",
@@ -1200,7 +1200,7 @@ dependencies = [
 
 [[package]]
 name = "fluss-core"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "dirs",
@@ -1212,7 +1212,7 @@ dependencies = [
 
 [[package]]
 name = "fluss-daemon"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "chrono",
@@ -1237,7 +1237,7 @@ dependencies = [
 
 [[package]]
 name = "fluss-settings"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "fluss-core",
  "parking_lot",

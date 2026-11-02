@@ -3,7 +3,7 @@ resolver = "2"
 members = ["crates/fluss-core", "crates/fluss-daemon", "crates/fluss-cli", "ui/src-tauri"]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 authors = ["mflRevan"]
